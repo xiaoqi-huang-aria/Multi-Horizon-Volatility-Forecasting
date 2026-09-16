@@ -44,7 +44,7 @@ compared with:
 .
 ├── data/                   # Local data only (excluded from version control)
 ├── reports/
-│   ├── figures/            # Publication-ready plots
+│   ├── figures/            # Report-ready plots
 │   │   ├── single_split/
 │   │   └── cross_validation/
 │   └── tables/             # Result tables and statistical summaries
@@ -175,8 +175,6 @@ comparisons, and fold-level Diebold-Mariano tests are available under
 
 ## Reporting layout
 
-The reporting structure follows the same pattern as the Boot Camp project:
-
 - `reports/tables/single_split/`: pooled and pairwise single-split results;
 - `reports/tables/cross_validation/`: full/quick summaries, aggregate matrices,
   per-asset metrics, and fold-level statistics;
@@ -184,19 +182,6 @@ The reporting structure follows the same pattern as the Boot Camp project:
 - `reports/figures/cross_validation/`: coverage, loss, per-asset, and event
   attention figures; and
 - `artifacts/attention/`: local compressed attention arrays, excluded from Git.
-
-## Data sources
-
-- Baker, Bloom, and Davis, *Measuring Economic Policy Uncertainty*.
-- Caldara and Iacoviello, *Measuring Geopolitical Risk*.
-- Caldara, Iacoviello, Molligo, Prestipino, and Raffo, *The Economic Effects of
-  Trade Policy Uncertainty*.
-- Shapiro, Sudhof, and Wilson, *Measuring News Sentiment*; Federal Reserve Bank
-  of San Francisco Daily News Sentiment Index.
-
-The repository does not currently document the vendor or download URL for the
-5-minute ETF price files. That provenance should be documented separately so
-the local dataset can be reproduced without distributing the files here.
 
 ## Data availability
 
