@@ -1,0 +1,37 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Generated intermediate arrays
+*.npz
+/artifacts/
+
+# Legacy working-output directories created by the experiment scripts
+/results/
+/results_cv/
+
+# All project data (raw, intermediate, and processed)
+/data/
+
+# Private capstone report: do not upload
+/Capstone Report.pdf
